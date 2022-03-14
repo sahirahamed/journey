@@ -131,7 +131,10 @@ display: flex;
 flex-direction: column;
 height: 500px;
 width:700px;
-
+background-image: url(images/world-map.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 box-shadow: 2px 2px 2px 2px grey;
  }
  .short-view{
@@ -146,19 +149,131 @@ box-shadow: 2px 2px 2px 2px grey;
  }
  .map-header{
 
-height: 50px;
+height: 55px;
 width:700px;
-background-color: #ca5a96;
+background-color: #732C52;
 display: flex;
 flex-direction: row;
 color: white;
-
+justify-content: flex-start;
+align-items: center;
 
  }
  .globe{
 
-height: 30px;
-width: 30px;
+height: 25px;
+width: 25px;
 border-radius: 20px;
+
+ }
+ .dropdown{
+height: 30px;
+width:300px;
+border: 1px solid white;
+margin-left: 240px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+
+ }
+ .drop{
+
+margin-left: 170px;
+
+ }
+ .header-logo{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-left: 20px;
+
+ }
+ .wide{
+
+margin-left: 5px;
+
+ }
+ .transparent{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+margin-right: 20px;
+margin-top: 10px;
+ }
+ .title-plan{
+
+
+height: 55px;
+width:500px;
+background-color: #732C52;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 20px;
+
+ }
+ .rrr{
+display: flex;
+flex-direction: row;
+background-color: aqua;
+height: 445px;
+width:500px;
+ }
+ .left-col{
+
+display: flex;
+flex-direction: column;
+height: 400px;
+width:250px;
+background-color:gainsboro;
+
+ }
+ .right-col{
+
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width:250px;
+    background-color: white;
+
+
+ }
+ .fill{
+
+height: 50px;
+width: 250px;
+border-bottom: 1px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+ }
+ .footer{
+
+height: 55px;
+width:500px;
+background-color:#732C52;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+
+ }
+ .click-button{
+
+color:yellow;
+background-color:#732C52;
+ }
+ .click-button a{
+
+    color:yellow;
 
  }
